@@ -1,4 +1,3 @@
-// commands/help.js
 const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
 
 module.exports = {

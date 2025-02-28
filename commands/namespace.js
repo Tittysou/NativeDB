@@ -1,4 +1,3 @@
-// commands/namespace.js
 const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
 const { searchByNamespace } = require('../utils/scraper');
 
@@ -26,7 +25,6 @@ module.exports = {
         return await interaction.editReply({ embeds: [embed] });
       }
       
-      // Create embed for results
       const embed = new EmbedBuilder()
         .setTitle(`Natives in "${namespace}" Namespace`)
         .setColor("#1abb4d")
